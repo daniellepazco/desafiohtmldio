@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css"></style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu html da dio</title>
+    <link href="./Meu html da dio_files/style.css" rel="stylesheet">
+<meta id="dcngeagmmhegagicpcmpinaoklddcgon"></head>
+<body cz-shortcut-listen="true">
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr>
+
+    <h2>Índice</h2>
+    <p style="color:brown"><strong><u>INSTRUÇÕES:</u></strong></p><strong> </strong>Neste índice mostro apenas os temas em que fiquei com dúvidas. Para que eu pudesse pesquisar e esclarecer melhor, e se houver dúvida voltar aqui e relembrar. <p></p>
+    <h6>Assim, ao final deste projeto pretendo não ter mais dúvidas sobre eles.</h6>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#atributos">O que são <del>tributos</del> Atributos?</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#elementos">O que são <i>Elementos</i>?</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#tag">O que é uma <i><abbr title="TO APRENDENDO GALERA">Tag</abbr></i>?</a></li>
+       
+        <li><a href="http://127.0.0.1:5500/index.html#links">Links de referências</a></li>
+    </ul>
+<hr>      
+    <h2 id="atributos">O que são <i>Atributos?</i></h2>
+    <p style="color:red"><strong><u>INSTRUÇÕES:</u></strong></p><strong> </strong><u>Atributos</u> são comandos que colocamos nas <a href="http://127.0.0.1:5500/index.html#tags">tags</a> para que ela retorne com o resultado esperado. Existem atributos que funcionam em todas as tags, e outros que são específicos para cada tag. <u>Exemplo class, id, lang, style</u> ou específicos como <u>src, disabled, href, label etc...</u> 
+    <p><small><a href="http://127.0.0.1:5500/index.html#inicio">Volte ao início</a></small> </p>
+        
+<hr>
+    <h2 id="elementos">O que são <i>Elementos</i>?</h2>
+    <p style="color:rgb(89, 0, 255)"><strong><u>INSTRUÇÕES:</u></strong></p><strong> </strong>Os elementos são os comandos em que construímos a nossa página. <u>Exemplo h1, h2, h3 etc...</u> 
+    <p><small><a href="http://127.0.0.1:5500/index.html#inicio">Volte ao início</a></small> </p>
+<hr>
+    <h2 id="tag">O que é uma <abbr title="TO APRENDENDO GALERA">Tag</abbr>?</h2>
+    <p style="color:rgb(0, 255, 0)"><strong><u>INSTRUÇÕES:</u></strong></p><strong> </strong>Utilizamos as tags para informar ao navegador a estrutura do nosso site. O navegador interpreta produzindo a estrutura e o conteúdo visual da página. <u>Exemplo html, body, head etc...</u> 
+    <p><small><a href="http://127.0.0.1:5500/index.html#inicio">Volte ao início</a></small> </p>
+    
+<hr>
+    <h2 id="links" style="color: blueviolet;">Links de referências</h2>
+        <ul>
+        <li><a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank">Referência Completa</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">Referência Teste</a>
+        </li>
+    </ul>
+    <input type="button" <hr="">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
